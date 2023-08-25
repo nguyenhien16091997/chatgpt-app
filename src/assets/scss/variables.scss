@@ -1,0 +1,43 @@
+$smaller-font: 10px;
+$small-font: 12px;
+$supper-normal-font: 13px;
+$normal-font: 14px;
+$default-font: 16px;
+$medium-font: 18px;
+$large-font: 20px;
+$larger-font-middle: 22px;
+$larger-font: 24px;
+$largest-font: 26px;
+$largests-font: 28px;
+$supper-font: 30px;
+$suppere-font: 32px;
+$supperer-font: 36px;
+$suppererr-font: 38px;
+$suppererre-font: 40px;
+$supperere-font: 44px;
+$suppererer-font: 48px;
+$suppest-font: 64px;
+
+$black: #000;
+
+$white-0: #fff;
+$white-1: #ccc;
+
+$box-shadown-0: 16px 20px 40px rgba(0, 166, 118, 0.5);
+$box-shadown-1: 0px 16px 40px rgba(112, 144, 176, 0.2);
+
+$level--1: -1;
+$level-0: 0;
+$level-1: 1;
+$level-2: 2;
+$level-10: 10;
+$level-11: 11;
+$level-100: 100;
+$level-1000: 1000;
+$level-max: 1001;
+
+@mixin desktop {
+  @media (min-width: 1201px) {
+    @content;
+  }
+}

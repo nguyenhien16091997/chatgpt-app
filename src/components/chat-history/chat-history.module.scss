@@ -1,0 +1,38 @@
+@import '../../assets/scss/variables.scss';
+.messages {
+    overflow-y: auto;
+    .message {
+        box-sizing: border-box;
+        padding: 0.5rem 1rem;
+        margin: 1rem;
+        background: $white-0;
+        border-radius: 1.125rem 1.125rem 1.125rem 0;
+        min-height: 2.25rem;
+        width: fit-content;
+        max-width: 66%;        
+        box-shadow: 
+            0 0 0.7rem rgba($black, 0.075),
+            0rem 1rem 1rem -1rem rgba($black, 0.1);
+        
+        &.ask {
+            margin: 1rem 1rem 1rem auto ;
+            border-radius: 1.125rem 1.125rem 0 1.125rem;
+            background: $black;
+            color: $white-0;
+        }
+        
+        .typing {
+            display: inline-block;
+            width: 0.8rem;
+            height: 0.8rem;
+            margin-right: 0rem;
+            box-sizing: border-box;
+            background: $white-1;
+            border-radius: 50%;
+            
+            &.typing-1 { animation: typing 3s infinite }
+            &.typing-2 { animation: typing 3s 250ms infinite }
+            &.typing-3 { animation: typing 3s 500ms infinite }
+        }
+    }
+}
