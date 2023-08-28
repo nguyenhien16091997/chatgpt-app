@@ -9,7 +9,7 @@ const useApi = () => {
       method: 'POST',
       headers: {
         Authorization:
-          'Bearer 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',
+          'Bearer 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',
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(data),
